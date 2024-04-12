@@ -8,17 +8,17 @@ public class Java101 {
         System.out.println("world!");
         
         //2.data types
-        byte a; //2**8
-        short b; //2**16
-        int c; //2**32
-        long d; //2**64
+        byte a=1; //2**8
+        short b=2; //2**16
+        int c=3; //2**32
+        long d=4; //2**64
 
-        boolean bb; //1
+        boolean bb=true; //1
 
-        float f; //2**32  ---1.4x10**-45 , 3.4x10**38--- 6-7 decimal
-        double db; //2**64 ---4.9x10**-324 , 1.8x10**308--- 15 decimal
+        float f=6.0f; //2**32  ---1.4x10**-45 , 3.4x10**38--- 6-7 decimal
+        double db=7.0; //2**64 ---4.9x10**-324 , 1.8x10**308--- 15 decimal
 
-        char ch; //2**16
+        char ch='a'; //2**16
 
         String sS="abc";
         System.out.println(sS);
@@ -29,6 +29,6 @@ public class Java101 {
         Scanner inp= new Scanner(System.in);
         db = inp.nextDouble();
         System.out.println(db);
-
+        inp.close();
     }
 }

@@ -9,5 +9,6 @@ public class VATCalculator {
         double vatPercentage=s1.nextDouble();
         double finalPrice = basePrice*(100+vatPercentage)/100;
         System.out.print("Final price is :" + finalPrice);
+        s1.close();
     }
 }

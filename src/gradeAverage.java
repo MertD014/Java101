@@ -19,5 +19,6 @@ public class GradeAverage {
             sum+=s1.nextInt();
         }
         System.out.println("Grade average is " + sum/n);
+        s1.close();
     }
 }

@@ -13,5 +13,6 @@ public class TriangleAreaCalculator {
         double area = Math.sqrt(U*(U-A)*(U-B)*(U-C)); 
 
         System.out.println("Area of triangle is " + area);
+        s1.close();
     }
 }
