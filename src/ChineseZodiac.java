@@ -48,6 +48,6 @@ public class ChineseZodiac {
                 System.out.println("Java++");
                 break;
         }
-
+        s1.close();
     }
 }
