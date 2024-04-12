@@ -1,6 +1,7 @@
 import java.util.Scanner; //imports
 
 public class Java101 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         
         //1.std out
