@@ -6,10 +6,9 @@
  * Average of the given grades.
  */
 
-
 import java.util.Scanner;
 
-public class gradeAverage {
+public class GradeAverage {
     public static void main(String[] args) {
         Scanner s1= new Scanner(System.in);
         System.out.print("N:");
